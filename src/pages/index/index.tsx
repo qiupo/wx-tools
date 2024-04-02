@@ -3,8 +3,12 @@ import { Button, Cell, ConfigProvider, NavBar, SideNavBar, SideNavBarItem, SubSi
 import './index.less'
 import { darkTheme } from '@/constant'
 import { useState } from 'react'
-import { ArrowLeft, Share, Close } from '@nutui/icons-react-taro'
+
 import Taro from '@tarojs/taro'
+import IconABAogaoqushizoushi from '@/Iconfont/components/IconABAogaoqushizoushi'
+import IconACAijingzoushiqushi from '@/Iconfont/components/IconACAijingzoushiqushi'
+import IconAFEnxibaogaozhanbi from '@/Iconfont/components/IconAFEnxibaogaozhanbi'
+import { Iconfont } from '@/Iconfont'
 
 function Index() {
   const [navBarState, setNavBarState] = useState(false)
@@ -14,6 +18,10 @@ function Index() {
   return (
     <ConfigProvider theme={darkTheme}>
       <View className="nutui-react-demo ">
+        <Iconfont name='icon-a-huazhiwu' size={40}></Iconfont>
+        <IconABAogaoqushizoushi size={40} color={['red', 'green']} />
+        <IconACAijingzoushiqushi size={34}></IconACAijingzoushiqushi>
+        <IconAFEnxibaogaozhanbi size={40}/>
         <Cell title="计算器" extra="基本计算功能" onClick={() => {
           Taro.navigateTo({
             url: '/pages/calculator/index'

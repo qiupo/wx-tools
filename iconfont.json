@@ -1,0 +1,10 @@
+{
+    "symbol_url": "//at.alicdn.com/t/c/font_4492100_gbyyt9o35yg.js",
+    "save_dir": "./src/Iconfont",
+    "icon_all_name": "Iconfont",
+    "is_signle": true,
+    "use_rpx": false,
+    "trim_icon_prefix": "",
+    "default_icon_size": 16,
+    "design_width": 750
+}

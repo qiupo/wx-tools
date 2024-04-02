@@ -54,6 +54,7 @@
     "@tarojs/shared": "3.6.20",
     "@tarojs/taro": "3.6.20",
     "bignumber.js": "^9.1.2",
+    "iconfont-to-tsx": "^1.0.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-refresh": "^0.11.0"
